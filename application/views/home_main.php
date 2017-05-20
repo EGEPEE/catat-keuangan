@@ -6,7 +6,7 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url().'assets/materialize/css/materialize.css'?>">
     <link rel="stylesheet" href="<?php echo base_url().'assets/materialize/css/home_style.css'?>">
-    <script type="text/javascript" src="<?php echo base_url().'assets\materialize\js\jquery-2.1.1.min.js'?>"></script>
+    <script type="text/javascript" src="<?php echo base_url().'assets/materialize/js/jquery-2.1.1.min.js'?>"></script>
     <script type="text/javascript" src="<?php echo base_url('assets/materialize/js/materialize.min.js');?>"></script>
   </head>
   <body>
@@ -38,7 +38,7 @@
          <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
       </nav>
-      <div class="isi">
+      <div class="isi center-align">
         <div class="kebutuhan">
           <img src="<?php echo base_url().'assets\materialize\images\online-shop.png'?>" alt="shopping-cart.jpg">
           <h5>Catat Kebutuhan</h5>
@@ -50,8 +50,8 @@
           <p>Catat kebutuhan dimaksudkan agar dapat mencatat semua transaksi yang dilakukan agar mengetahui kronologi atas pmasukan dan pengeluaran</p>
         </div>
       </div>
-      <div class="footer teal lighten-1">
-        &copy; Copyright 2017 Ega. All Right Reserved.
+      <div class="footer teal lighten-1 center-align">
+        &copy; Copyright 2017 Ega Prasetianti. All Right Reserved.
       </div>
     </div>
     <script type="text/javascript">

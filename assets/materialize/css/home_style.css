@@ -1,37 +1,29 @@
 body{
+  width: 100%;
+  height: 100%;
   background-color: #22313F;
 }
 
-  .container{
-    margin-top: 15px;
-  }
-
   .isi{
-    height: 630px;
     font-weight: 600;
     font-size: 24px;
     color: white;
     padding-top : 20px;
-    text-align: center;
   }
+
   .kebutuhan, .keuangan{
-    padding: 2%;
-    margin: 15px auto auto;
+    margin: 4% auto;
     font-family: arial;
     font-size: 15px;
-    width: auto;
   }
   .kebutuhan img, .keuangan img{
-    margin: 1%;
     height: 100px;
     width: 100px;
   }
   .footer{
     height: 40px;
     padding-top: 10px;
-    text-align: center;
     color: white;
-    background-color: #e57373;
     font-size: 16px;
     font-weight: 600;
   }

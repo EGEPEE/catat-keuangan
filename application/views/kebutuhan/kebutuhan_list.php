@@ -5,7 +5,7 @@
     <title>CATAT KEBUTUHAN</title>
     <link rel="stylesheet" href="<?php echo base_url().'assets/materialize/css/materialize.css'?>">
     <link rel="stylesheet" href="<?php echo base_url().'assets/materialize/css/userlist_style.css'?>">
-    <script type="text/javascript" src="<?php echo base_url().'assets\materialize\js\jquery-2.1.1.min.js'?>"></script>
+    <script type="text/javascript" src="<?php echo base_url().'assets/materialize/js/jquery-2.1.1.min.js'?>"></script>
     <script type="text/javascript" src="<?php echo base_url().'assets/materialize/js/materialize.min.js'?>"></script>
   </head>
   <body>
@@ -22,7 +22,6 @@
         <table id="table" class="centered striped  teal lighten-3">
           <thead>
             <tr>
-                <th>ID</th>
                 <th>Catatan</th>
                 <th>Tanggal</th>
                 <th></th>
@@ -33,7 +32,6 @@
             foreach ($post as $p) {
                ?>
               <tr>
-                  <td><?php echo $p->id_kebutuhan ?></td>
                   <td><?php echo $p->catatan ?></td>
                   <td><?php echo $p->tanggal ?></td>
                   <td>

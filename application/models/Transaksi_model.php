@@ -8,7 +8,7 @@ class Transaksi_model extends CI_model {
   }
 
   function trans_view_all(){
-    return $this->db->get("tb_transaksi");
+    return $this->db->query("SELECT * from tb_transaksi order by tanggal ASC");
   }
 
   function trans_view_user($id){

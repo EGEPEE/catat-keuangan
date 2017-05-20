@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>CATAT KEUANGAN</title>
     <link rel="stylesheet" href="<?php echo base_url().'assets/materialize/css/materialize.css'?>">
-    <link rel="stylesheet" href="<?php echo base_url().'assets\materialize\css\transaksi_list.css'?>">
-    <script type="text/javascript" src="<?php echo base_url().'assets\materialize\js\jquery-2.1.1.min.js'?>"></script>
+    <link rel="stylesheet" href="<?php echo base_url().'assets/materialize/css/transaksi_list.css'?>">
+    <script type="text/javascript" src="<?php echo base_url().'assets/materialize/js/jquery-2.1.1.min.js'?>"></script>
     <script type="text/javascript" src="<?php echo base_url().'assets/materialize/js/materialize.min.js' ?>"></script>
   </head>
   <body>

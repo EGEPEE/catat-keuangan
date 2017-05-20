@@ -17,7 +17,7 @@ class Transaksi extends CI_Controller {
 
 	function index()
 	{
-		$data['post'] = $this->transaksi_model->trans_view_user($this->id_user)->result();
+		$data['post'] = $this->transaksi_model->trans_view_all()->result();
 		$this->load->view('transaksi/transaksi_list', $data);
 
 	}
