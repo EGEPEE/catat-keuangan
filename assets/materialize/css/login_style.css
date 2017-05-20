@@ -1,0 +1,39 @@
+body{
+  background-color: #22313F;
+}
+.login{
+  width: 300px;
+  margin: 12% 40% auto;
+}
+.header{
+  height: 40px;
+  background-color: #0097a7;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.header .judul{
+  color: white;
+  font-size: 20px;
+  font-weight: 600px;
+  text-align: center;
+  padding: 2%;
+}
+.form{
+  padding: 3px;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#lbl{
+  font-size: 14px;
+}
+
+#button{
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+#button:hover{
+  border-bottom: 3px #01579b solid;
+}

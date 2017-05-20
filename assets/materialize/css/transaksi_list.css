@@ -1,0 +1,27 @@
+body{
+  background-color: #22313F;
+}
+.container{
+  padding-top: 10px;
+}
+
+.header h4{
+  padding-top: 30px;
+}
+.isi{
+  height: auto;
+}
+
+.manipulasi{
+  margin-top: 20px;
+}
+
+.bulan-pilih{
+  border-radius: 10px;
+  background-color: #e0f2f1 ;
+}
+
+#btn{
+  margin-bottom: 50px;
+  color: white;
+}

@@ -1,0 +1,23 @@
+body{
+  background-color: #22313F;
+}
+.container{
+  padding-top: 10px;
+}
+.header{
+  height: 100px;
+}
+.header h4{
+  padding-top: 30px;
+}
+.isi{
+  height: 480px;
+}
+#table{
+  background-color: #ffccbc;
+}
+
+#btn{
+  margin-bottom: 10px;
+  color: white;
+}

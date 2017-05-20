@@ -1,0 +1,36 @@
+body{
+  background-color: #22313F;
+}
+
+h3{
+  color: white;
+  font-family: arial;
+  font-weight: 600;
+}
+
+.header{
+  height: 100px;
+}
+
+.container{
+  margin-top: 15px;
+}
+
+.content{
+  height: auto;
+  background-color: #e0f7fa ;
+  padding: 10%;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.content img{
+  height: 260px;
+  width: 230px;
+  border-radius: 30px;
+  margin-bottom: 10%;
+}
+
+.footer{
+  margin: 5%;
+}
