@@ -33,4 +33,8 @@ class Transaksi_model extends CI_model {
     $this->db->where($where);
     $this->db->delete($table);
   }
+
+  function sum_transaksi($field, $table, $jenis, $selected){
+  return $this->db->query("SELECT SUM($field) as total FROM $table WHERE $jenis = '$selected'");
+}
 }

@@ -9,7 +9,7 @@
     }
 
     function post_view_all(){
-      return $this->db->get("tb_kebutuhan");
+      return $this->db->query("SELECT * from tb_kebutuhan order by tanggal ASC");
     }
 
     function post_view_user($id){

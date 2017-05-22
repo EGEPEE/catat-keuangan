@@ -18,6 +18,8 @@ class Transaksi extends CI_Controller {
 	function index()
 	{
 		$data['post'] = $this->transaksi_model->trans_view_all()->result();
+		$data['sum_pemasukan'] = $this->transaksi_model->sum_transaksi('jumlah', 'tb_transaksi', 'jenis', 'pemasukan')->result();
+		$data['sum_pengeluaran'] = $this->transaksi_model->sum_transaksi('jumlah', 'tb_transaksi', 'jenis', 'pengeluaran')->result();
 		$this->load->view('transaksi/transaksi_list', $data);
 
 	}

@@ -59,8 +59,13 @@
           </thead>
           <tbody>
             <tr>
-                <td id="pemasukan"></td>
-                <td id="pengeluaran"></td>
+            <?php foreach ($sum_pemasukan as $row) { ?>
+                <td id="pemasukan"><?php echo $row->total ?></td>
+            <?php } ?>
+
+            <?php foreach ($sum_pengeluaran as $row) { ?>
+                <td id="pengeluaran"><?php echo $row->total ?></td>
+            <?php } ?>
                 <td id="saldo_akhir"></td>
               </tr>
           </tbody>
@@ -78,6 +83,14 @@
 
   <script type="text/javascript">
   $('document').ready(function(){
+    var pemasukan = $('#pemasukan').text();
+      var pengeluaran = $('#pengeluaran').text();
+      var saldo_akhir = pemasukan - pengeluaran;
+      $('#saldo_akhir').text(saldo_akhir);
+      var bulan = ['Pilih Bulan', 'Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember',]
+      for(i=1; i<=12; i++){
+          $('.pilih-bulan').append("<option value=" + i + ">" + bulan[i] + "</option>");
+      }
       $('select').material_select();
       $('.datepicker').pickadate({
         selectMonths: true, // Creates a dropdown to control month

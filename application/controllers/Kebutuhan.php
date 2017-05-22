@@ -17,7 +17,7 @@ class Kebutuhan extends CI_Controller {
 		}
 
 	function index(){
-		$data['post'] = $this->kebutuhan_model->post_view_user($this->id_user)->result();
+		$data['post'] = $this->kebutuhan_model->post_view_all()->result();
     $this->load->view('kebutuhan/kebutuhan_list', $data);
 	}
 
